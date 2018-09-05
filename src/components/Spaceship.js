@@ -10,6 +10,7 @@ class Spaceship extends React.Component{
   const colors = this.props;
   
   reder(){
+<<<<<<< HEAD
     return(
       <div>
       <h1>{this.props.speed}</h1>
@@ -18,6 +19,9 @@ class Spaceship extends React.Component{
       <h3>{this.props.colors.[0]} </h3>
       </div>
       )
+=======
+    return()
+>>>>>>> a7fd5e3a6de85ee4738a6571a53387b942b39046
   }
   
 }
